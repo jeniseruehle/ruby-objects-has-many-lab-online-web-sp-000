@@ -14,7 +14,7 @@ class Post
   
   def author_name
     return nil @author == nil 
-    self.author
+    self.author.name
   end 
   
 end 
