@@ -9,8 +9,12 @@ class Post
   end
   
   def self.all
-    
+    @@all
   end 
   
+  def author_name
+    return nil @author == nil 
+    self.author
+  end 
   
 end 
